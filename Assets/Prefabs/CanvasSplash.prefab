@@ -1,0 +1,3851 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &765345356009243965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 271250281731105743}
+  - component: {fileID: 6723611359163490961}
+  - component: {fileID: 8106529714241943767}
+  - component: {fileID: 1146066316514308729}
+  - component: {fileID: 6196792024625625963}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &271250281731105743
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345356009243965}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7580399656851979447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 441.5, y: -259}
+  m_SizeDelta: {x: 767, y: 690}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6723611359163490961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345356009243965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1947
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Background
+        - Background
+        - 8ebeb7f413d54f3a970026e4090ece8c
+        - background
+        - _background
+        - Background_1
+        - Background_1
+        - 
+        - Background 4x 323499534.png
+        - style-Background-323499534
+    tags: c9000000
+    fcuImageType: 1
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 765345356009243965}
+    hash: 323499534
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 2
+      Name: Background
+      Guid: 8ebeb7f413d54f3a970026e4090ece8c
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &8106529714241943767
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345356009243965}
+  m_CullTransparentMesh: 1
+--- !u!114 &1146066316514308729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345356009243965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f1b504626c102b2438b5e49516fa0141, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6196792024625625963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345356009243965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.21568629, g: 0.5294118, b: 1, a: 0.24313726}
+  m_EffectDistance: {x: 8, y: -8}
+  m_UseGraphicAlpha: 1
+--- !u!1 &2068337335965237196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684168169761516645}
+  - component: {fileID: 4683836888101986278}
+  - component: {fileID: 32179579707130823}
+  - component: {fileID: 185300423705637339}
+  m_Layer: 5
+  m_Name: SplashScreen2Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1684168169761516645
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068337335965237196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7580399656851979447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 47.875, y: 355.125}
+  m_SizeDelta: {x: -408.25, y: -834.25}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4683836888101986278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068337335965237196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:2129
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - SplashScreen2Image
+        - SplashScreen2Image
+        - cdb36594dc534679b7b1a8936c478167
+        - splash_screen2_image
+        - _splashScreen2Im
+        - SplashScreen2Ima
+        - SplashScreen2Ima
+        - 
+        - SplashScreen2Image 4x -1845654599.png
+        - style-SplashScreen2Image-1845654599
+    tags: c9000000
+    fcuImageType: 1
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 2068337335965237196}
+    hash: -1845654599
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 3
+      Name: SplashScreen2Image
+      Guid: cdb36594dc534679b7b1a8936c478167
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &32179579707130823
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068337335965237196}
+  m_CullTransparentMesh: 1
+--- !u!114 &185300423705637339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068337335965237196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a45ef9c0312d82849bbcd76bed21501a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4387757610061635508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6160168063137902602}
+  - component: {fileID: 4027081552180803618}
+  m_Layer: 5
+  m_Name: TervetuloaText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6160168063137902602
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4387757610061635508}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4339081547001757409}
+  - {fileID: 897891332164049210}
+  m_Father: {fileID: 7580399656851979447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 417, y: -766.33496}
+  m_SizeDelta: {x: 454, y: 224.67}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4027081552180803618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4387757610061635508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1948
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - TervetuloaText
+        - TervetuloaText
+        - 81b9f79473eb4940b700326cafdb936b
+        - tervetuloa_text
+        - _tervetuloaText
+        - TervetuloaText
+        - TervetuloaText
+        - 
+        - TervetuloaText
+        - style-TervetuloaText-587171528
+    tags: 01000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 4300000044000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 4387757610061635508}
+    hash: -587171528
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 1
+      Name: TervetuloaText
+      Guid: 81b9f79473eb4940b700326cafdb936b
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!1 &4943668213791120212
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5735284109077297596}
+  - component: {fileID: 4105776869678540927}
+  - component: {fileID: 3874962349218029028}
+  - component: {fileID: 721235174600388926}
+  m_Layer: 5
+  m_Name: Johtaja
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5735284109077297596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943668213791120212}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5092569111218646638}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.1400146}
+  m_SizeDelta: {x: -31.340027, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4105776869678540927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943668213791120212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: I995:1991;160:8405
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Johtaja
+        - Johtaja
+        - 96a8b71a3f284d25b9801a1525729461
+        - johtaja
+        - _johtaja
+        - Johtaja
+        - Johtaja
+        - TextMeshPro Mulish-Regular-24-CenterTop-Black255
+        - Johtaja
+        - style-Johtaja-931350425
+    tags: c8000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 4943668213791120212}
+    hash: 931350425
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 0
+      Name: ButtonManager
+      Guid: 382b6451ba474675aed5f965958b83fb
+    - Index: 1
+      Name: Johtaja
+      Guid: 96a8b71a3f284d25b9801a1525729461
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &3874962349218029028
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943668213791120212}
+  m_CullTransparentMesh: 1
+--- !u!114 &721235174600388926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4943668213791120212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Johtaja
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_sharedMaterial: {fileID: -2550980693631378957, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294936375
+  m_fontColor: {r: 0.21568628, g: 0.5294118, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 23.9
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 24
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 35.14
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &4959597437430403703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 897891332164049210}
+  - component: {fileID: 2920047261526380878}
+  - component: {fileID: 5002514306448835167}
+  - component: {fileID: 4869355080925642296}
+  m_Layer: 5
+  m_Name: Tervetuloa House
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &897891332164049210
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959597437430403703}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6160168063137902602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -68.23511}
+  m_SizeDelta: {x: 454, y: 136.47}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2920047261526380878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959597437430403703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1950
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Tervetuloa House of Marine Finland Oy:n digitaaliseen arviointialustaan
+        - Tervetuloa House
+        - 71fe0a829bb8479a80c33c276b67ebd2
+        - tervetuloa_house_of_mari
+        - _tervetuloaHouse
+        - TervetuloaHouseO
+        - TervetuloaHouseO
+        - TextMeshPro Mulish-Bold-28-CenterTop-Black255
+        - Tervetuloa House
+        - style-Tervetuloa House-135683349
+    tags: c8000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 4959597437430403703}
+    hash: 135683349
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 1
+      Name: TervetuloaText
+      Guid: 81b9f79473eb4940b700326cafdb936b
+    - Index: 1
+      Name: Tervetuloa House
+      Guid: 71fe0a829bb8479a80c33c276b67ebd2
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &5002514306448835167
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959597437430403703}
+  m_CullTransparentMesh: 1
+--- !u!114 &4869355080925642296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959597437430403703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Tervetuloa \nHouse of Marine Finland Oy:n digitaaliseen arviointialustaan\n\n\n\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d530405736375414e93efbfba02a26a0, type: 2}
+  m_sharedMaterial: {fileID: -7493115669391425775, guid: d530405736375414e93efbfba02a26a0, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 28
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 28
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 41.41
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &5473215456693794316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5995899127899075672}
+  - component: {fileID: 6252412654505594284}
+  - component: {fileID: 4795843296202449772}
+  - component: {fileID: 8822287413347640996}
+  - component: {fileID: 4778930674469386629}
+  m_Layer: 5
+  m_Name: Rectangle 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5995899127899075672
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473215456693794316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3017389251046458406}
+  m_Father: {fileID: 2912352494376554075}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6252412654505594284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473215456693794316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: I995:1988;160:8401
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Rectangle 2
+        - Rectangle 2
+        - d89c9af0b9414fd29032c3a3243a261f
+        - rectangle_2
+        - _rectangle2_1
+        - Rectangle2_1
+        - Rectangle2_1
+        - 
+        - Rectangle 2 4x -266586526.png
+        - style-Rectangle 2-266586526
+    tags: c9000000
+    fcuImageType: 1
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 5473215456693794316}
+    hash: -266586526
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 1
+      Name: ButtonCandidate
+      Guid: 88efff7f6bdb45759f9a6fed0a2f4527
+    - Index: 0
+      Name: Rectangle 2
+      Guid: d89c9af0b9414fd29032c3a3243a261f
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &4795843296202449772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473215456693794316}
+  m_CullTransparentMesh: 1
+--- !u!114 &8822287413347640996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473215456693794316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 0.21568628, g: 0.5294118, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a470c418b380b53469d7cd9cd0a51be1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &4778930674469386629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473215456693794316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8822287413347640996}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6336174120273172937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7580399656851979447}
+  - component: {fileID: 7029117317701358748}
+  - component: {fileID: 1730619683825627357}
+  - component: {fileID: 7291467465119678729}
+  - component: {fileID: 3338004922032950149}
+  m_Layer: 5
+  m_Name: DISK Splash Screen2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &7580399656851979447
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336174120273172937}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8656308620390225393}
+  - {fileID: 6160168063137902602}
+  - {fileID: 271250281731105743}
+  - {fileID: 1684168169761516645}
+  m_Father: {fileID: 4331743242588712844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 800, y: 1282}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7029117317701358748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336174120273172937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1946
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - DISK Splash Screen2
+        - DISK Splash Screen2
+        - a08a2cdce46b4b11899ddd0ad0337ec8
+        - d_i_s_k_splash_screen2
+        - _diskSplashScree
+        - DiskSplashScreen
+        - DiskSplashScreen
+        - 
+        - DISK Splash Screen2
+        - style-DISK Splash Screen2-1034780575
+    tags: 02000000f6010000c900000001000000
+    fcuImageType: 2
+    buttonComponent: 0
+    childIndexes: 3b000000420000004500000046000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 6336174120273172937}
+    hash: 1034780575
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &1730619683825627357
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336174120273172937}
+  m_CullTransparentMesh: 1
+--- !u!114 &7291467465119678729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336174120273172937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 0.89411765, g: 0.94509804, b: 0.972549, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3338004922032950149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6336174120273172937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!1 &6606835153686082920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5092569111218646638}
+  - component: {fileID: 6824901549591669639}
+  - component: {fileID: 1108139607335422854}
+  - component: {fileID: 7009195147476469477}
+  - component: {fileID: 2768161393707064239}
+  m_Layer: 5
+  m_Name: Rectangle 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5092569111218646638
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606835153686082920}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5735284109077297596}
+  m_Father: {fileID: 6738432999914897591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6824901549591669639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606835153686082920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: I995:1991;160:8404
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Rectangle 2
+        - Rectangle 2
+        - f540190fa3b6401390269e6371ccd25a
+        - rectangle_2
+        - _rectangle2
+        - Rectangle2
+        - Rectangle2
+        - 
+        - Rectangle 2 4x 636261953.png
+        - style-Rectangle 2-636261953
+    tags: c9000000
+    fcuImageType: 1
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 6606835153686082920}
+    hash: 636261953
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 0
+      Name: ButtonManager
+      Guid: 382b6451ba474675aed5f965958b83fb
+    - Index: 0
+      Name: Rectangle 2
+      Guid: f540190fa3b6401390269e6371ccd25a
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &1108139607335422854
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606835153686082920}
+  m_CullTransparentMesh: 1
+--- !u!114 &7009195147476469477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606835153686082920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 1, g: 0.6156863, b: 0.25882354, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 103dbd8c0882abe42add19f3cf2c4ea9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &2768161393707064239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606835153686082920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7009195147476469477}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &7091221410315788160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8656308620390225393}
+  - component: {fileID: 7666106026792861763}
+  m_Layer: 5
+  m_Name: LoginRoleButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8656308620390225393
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7091221410315788160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6738432999914897591}
+  - {fileID: 2912352494376554075}
+  m_Father: {fileID: 7580399656851979447}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 400, y: -1032.5}
+  m_SizeDelta: {x: 414, y: 209}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7666106026792861763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7091221410315788160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 2808:4939
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - LoginRoleButtons
+        - LoginRoleButtons
+        - 07ee101f4e644ef09f59b324706241bb
+        - login_role_buttons
+        - _loginRoleButton
+        - LoginRoleButtons
+        - LoginRoleButtons
+        - 
+        - LoginRoleButtons
+        - style-LoginRoleButtons-1383108403
+    tags: 01000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 3c0000003f000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 7091221410315788160}
+    hash: -1383108403
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!1 &7136815147329175804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693244752741200895}
+  - component: {fileID: 5063757170567091525}
+  - component: {fileID: 3075461744480561032}
+  - component: {fileID: 8539756486042631151}
+  - component: {fileID: 1296062452782907711}
+  m_Layer: 5
+  m_Name: DISK Splash Screen1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &693244752741200895
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136815147329175804}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1059467147211444753}
+  - {fileID: 8033655644368089093}
+  m_Father: {fileID: 4331743242588712844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 432, y: -226}
+  m_SizeDelta: {x: 800, y: 1280}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5063757170567091525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136815147329175804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:2363
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - DISK Splash Screen1
+        - DISK Splash Screen1
+        - 892a2f4bf93741498c6fd99587bb7387
+        - d_i_s_k_splash_screen1
+        - _diskSplashScree_1
+        - DiskSplashScreen_1
+        - DiskSplashScreen_1
+        - 
+        - DISK Splash Screen1
+        - style-DISK Splash Screen1-402890451
+    tags: 02000000f6010000c900000001000000
+    fcuImageType: 2
+    buttonComponent: 0
+    childIndexes: 4800000049000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 7136815147329175804}
+    hash: 402890451
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen1
+      Guid: 892a2f4bf93741498c6fd99587bb7387
+    rootFrameGO: {fileID: 7136815147329175804}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &3075461744480561032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136815147329175804}
+  m_CullTransparentMesh: 1
+--- !u!114 &8539756486042631151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136815147329175804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 0.21568628, g: 0.5294118, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1296062452782907711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136815147329175804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 1
+--- !u!1 &7493516166596370879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4331743242588712844}
+  - component: {fileID: 4995548116870501319}
+  - component: {fileID: 2537432625362997474}
+  - component: {fileID: 4554075417881448828}
+  - component: {fileID: 6784232360847494341}
+  m_Layer: 0
+  m_Name: CanvasSplash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4331743242588712844
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493516166596370879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 693244752741200895}
+  - {fileID: 7580399656851979447}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &4995548116870501319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493516166596370879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb50b5b4038022744b7d09fe41d03007, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  importController:
+    monoBeh: {fileID: 4995548116870501319}
+  canvasDrawer:
+    monoBeh: {fileID: 4995548116870501319}
+    imageDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+      unityImageDrawer:
+        monoBeh: {fileID: 4995548116870501319}
+      spriteRendererDrawer:
+        monoBeh: {fileID: 0}
+    textDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+      unityTextDrawer:
+        monoBeh: {fileID: 0}
+      textMeshDrawer:
+        monoBeh: {fileID: 4995548116870501319}
+    autoLayoutDrawer:
+      monoBeh: {fileID: 0}
+      gridLayoutDrawer:
+        monoBeh: {fileID: 0}
+      vertLayoutDrawer:
+        monoBeh: {fileID: 0}
+      horLayoutDrawer:
+        monoBeh: {fileID: 0}
+      layoutElementDrawer:
+        monoBeh: {fileID: 0}
+    contentSizeFitterDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    aspectRatioFitterDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    maskDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    toggleDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    buttonDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+      ubDrawer:
+        monoBeh: {fileID: 0}
+    scriptGenerator:
+      monoBeh: {fileID: 0}
+    inputFieldDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    scrollViewDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+    localizationDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+      dalDrawer:
+        monoBeh: {fileID: 0}
+    shadowDrawer:
+      monoBeh: {fileID: 0}
+    canvasGroupDrawer:
+      monoBeh: {fileID: 0}
+    gameObjectDrawer:
+      monoBeh: {fileID: 4995548116870501319}
+  projectCacher:
+    monoBeh: {fileID: 4995548116870501319}
+  hashCacher:
+    monoBeh: {fileID: 4995548116870501319}
+  projectDownloader:
+    monoBeh: {fileID: 4995548116870501319}
+  imageTypeSetter:
+    monoBeh: {fileID: 4995548116870501319}
+  duplicateFinder:
+    monoBeh: {fileID: 4995548116870501319}
+  scriptGenerator:
+    monoBeh: {fileID: 0}
+  delegateHolder:
+    monoBeh: {fileID: 4995548116870501319}
+  settings:
+    monoBeh: {fileID: 4995548116870501319}
+    mainSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      uiFramework: 0
+      positioningMode: 0
+      pivotType: 4
+      goLayer: 5
+      rawImport: 0
+      https: 1
+      gameObjectNameMaxLength: 32
+      textObjectNameMaxLength: 16
+      allowedNameChars: 5f002000280029003d002e002d005b005d002b00
+      windowMode: 0
+      projectUrl: K3JExSnwNbbXzYy3VHfn8T
+    uitkSettings:
+      monoBeh: {fileID: 0}
+      uitkOutputPath: Assets\UITK Output
+    imageSpritesSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      proceduralCondition: 3
+      svgCondition: 3
+      imageComponent: 0
+      downloadOptions: 5
+      redownloadSprites: 0
+      spritesPath: Assets\Sprites
+      imageFormat: 0
+      imageScale: 4
+      maxSpriteSize: {x: 4096, y: 4096}
+      preserveRatioMode: 0
+      pixelsPerUnit: 100
+      useImageLinearMaterial: 1
+    textureImporterSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      crunchedCompression: 0
+      compressionQuality: 100
+      isReadable: 1
+      mipmapEnabled: 0
+      textureType: 8
+      textureCompression: 0
+      spriteImportMode: 1
+    shadowSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      shadowComponent: 0
+    buttonSettings:
+      monoBeh: {fileID: 0}
+      buttonComponent: 0
+      unityButtonSettings:
+        monoBeh: {fileID: 0}
+        normalColor: {r: 1, g: 1, b: 1, a: 1}
+        highlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+        pressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+        selectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+        disabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+        colorMultiplier: 1
+        fadeDuration: 0.1
+    locSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      locComponent: 0
+      locKeyCaseType: 0
+      currentFigmaLayoutCulture: en-US
+      locKeyMaxLenght: 24
+      localizator: {fileID: 0}
+      locFolderPath: Assets\Resources\Localizations
+      locFileName: Localization.csv
+      csvSeparator: 59
+    scriptGenSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      serializationMode: 0
+      namespace: MyNamespace
+      baseClass: MonoBehaviour
+      outputPath: Assets\GeneratedScripts
+      fieldNameMaxLenght: 16
+      methodNameMaxLenght: 16
+      classNameMaxLenght: 16
+    novaSettings:
+      monoBeh: {fileID: 0}
+      inputTexture: {fileID: 0}
+    joshPuiSettings:
+      monoBeh: {fileID: 0}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+      falloffDistance: 1
+    mpuikitSettings:
+      monoBeh: {fileID: 0}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+      falloffDistance: 0.5
+    dttPuiSettings:
+      monoBeh: {fileID: 0}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+      falloffDistance: 1
+    svgImageSettings:
+      monoBeh: {fileID: 0}
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+    svgImporterSettings:
+      monoBeh: {fileID: 0}
+      gradientResolution: 64
+      customPivot: {x: 0.5, y: 0.5}
+      generatePhysicsShape: 0
+      stepDistance: 1
+      samplingSteps: 3
+      advancedMode: 1
+      maxCordDeviationEnabled: 0
+      maxCordDeviation: 1
+      maxTangentAngleEnabled: 0
+      maxTangentAngle: 5
+    unityImageSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+    rawImageSettings:
+      monoBeh: {fileID: 0}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+    shapes2D_Settings:
+      monoBeh: {fileID: 0}
+      type: 0
+      raycastTarget: 1
+      preserveAspect: 1
+      raycastPadding: {x: 0, y: 0, z: 0, w: 0}
+      maskable: 1
+    srSettings:
+      monoBeh: {fileID: 0}
+      flipX: 0
+      flipY: 0
+      maskInteraction: 0
+      sortPoint: 0
+      sortingLayer: Default
+      nextOrderStep: 10
+    textMeshSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      autoSize: 1
+      overrideTags: 0
+      wrapping: 1
+      orthographicMode: 1
+      richText: 1
+      raycastTarget: 1
+      parseEscapeCharacters: 1
+      visibleDescender: 1
+      kerning: 1
+      extraPadding: 0
+      overflow: 0
+      horizontalMapping: 0
+      verticalMapping: 0
+      geometrySorting: 0
+      shader: {fileID: 0}
+    textFontsSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      textComponent: 1
+    unityTextSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      bestFit: 1
+      fontLineSpacing: 1
+      horizontalWrapMode: 0
+      verticalWrapMode: 0
+    prefabSettings:
+      monoBeh: {fileID: 4995548116870501319}
+      prefabsPath: Assets\Prefabs
+      textPrefabNameType: 0
+  eventHandlers:
+    monoBeh: {fileID: 4995548116870501319}
+  events:
+    monoBeh: {fileID: 4995548116870501319}
+    onProjectDownloadFail:
+      m_PersistentCalls:
+        m_Calls: []
+    onProjectDownloadStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onProjectDownloaded:
+      m_PersistentCalls:
+        m_Calls: []
+    onImportStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onImportComplete:
+      m_PersistentCalls:
+        m_Calls: []
+    onImportFail:
+      m_PersistentCalls:
+        m_Calls: []
+    onObjectInstantiate:
+      m_PersistentCalls:
+        m_Calls: []
+    onAddComponent:
+      m_PersistentCalls:
+        m_Calls: []
+  ctsController:
+    monoBeh: {fileID: 4995548116870501319}
+  prefabCreator:
+    monoBeh: {fileID: 0}
+    pstructs: []
+    syncHelpers: []
+  prefabUpdater:
+    monoBeh: {fileID: 0}
+  folderCreator:
+    monoBeh: {fileID: 4995548116870501319}
+  inspectorDrawer:
+    monoBeh: {fileID: 4995548116870501319}
+    _selectableHambItems:
+    - id: 0:0
+      fade:
+        m_Target: 1
+        speed: 4
+        m_Value: 1
+      checkBoxValue:
+        _value: 1
+        _temp: 1
+      guiContent:
+        m_Text: FRAMES TO IMPORT (15/15)
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      buttonGuiContent:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    - id: 0:1
+      fade:
+        m_Target: 1
+        speed: 4
+        m_Value: 1
+      checkBoxValue:
+        _value: 1
+        _temp: 1
+      guiContent:
+        m_Text: Designs (15/15)
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      buttonGuiContent:
+        m_Text: 
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+    _document:
+      id: 0:0
+      name: Document
+      type: 1
+      selected: 1
+      childs:
+      - rid: 8247364591882862608
+  authorizer:
+    monoBeh: {fileID: 4995548116870501319}
+    _selectedTableIndex: 0
+    _options:
+    - m_Text: Maria | piili.mariia88@gmail.com
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  requestSender:
+    monoBeh: {fileID: 4995548116870501319}
+    pbarProgress: 0
+    pbarBytes: 0
+    _requestCount: 0
+    _timeoutActive: 0
+    _remainingTime: 0
+  hashGenerator:
+    monoBeh: {fileID: 4995548116870501319}
+  nameHumanizer:
+    monoBeh: {fileID: 4995548116870501319}
+  fontDownloader:
+    monoBeh: {fileID: 4995548116870501319}
+    tmpDownloader:
+      monoBeh: {fileID: 4995548116870501319}
+      samplingPointSize: 90
+      atlasPadding: 5
+      renderMode: 4165
+      atlasWidth: 512
+      atlasHeight: 512
+      atlasPopulationMode: 1
+      enableMultiAtlasSupport: 1
+      unityTmpFonts:
+        missing:
+        - fontSubset: 1
+          fontMetadata:
+            family: Mulish
+            weight: 400
+            fontStyle: 0
+          bytes: 
+          font: {fileID: 0}
+        - fontSubset: 1
+          fontMetadata:
+            family: Mulish
+            weight: 700
+            fontStyle: 0
+          bytes: 
+          font: {fileID: 0}
+        - fontSubset: 1
+          fontMetadata:
+            family: Open Sans
+            weight: 400
+            fontStyle: 0
+          bytes: 
+          font: {fileID: 0}
+        - fontSubset: 1
+          fontMetadata:
+            family: Mulish
+            weight: 400
+            fontStyle: 2
+          bytes: 
+          font: {fileID: 0}
+        - fontSubset: 1
+          fontMetadata:
+            family: Mulish
+            weight: 500
+            fontStyle: 0
+          bytes: 
+          font: {fileID: 0}
+        - fontSubset: 1
+          fontMetadata:
+            family: Inter
+            weight: 700
+            fontStyle: 0
+          bytes: 
+          font: {fileID: 0}
+        existing: []
+    ttfDownloader:
+      monoBeh: {fileID: 4995548116870501319}
+    gFontsApi:
+      monoBeh: {fileID: 4995548116870501319}
+      fontSubsets: 1
+  fontLoader:
+    monoBeh: {fileID: 4995548116870501319}
+    ttfFontsPath: Assets/Fonts/Ttf
+    tmpFontsPath: Assets/Fonts/Sdf
+    ttfFonts:
+    - {fileID: 12800000, guid: 3709835adb17b314aa8807851481beb4, type: 3}
+    - {fileID: 12800000, guid: 2359b52cdf48c1d4c89d6636eb78d617, type: 3}
+    - {fileID: 12800000, guid: c85b58612299b8e47bc13891900de484, type: 3}
+    - {fileID: 12800000, guid: cbfbd6ed0eeda5348b5ca94c08a698b4, type: 3}
+    - {fileID: 12800000, guid: 5e2d3af094359ed4da772997e9fae1c9, type: 3}
+    - {fileID: 12800000, guid: c97cfbc471303c74d86711efeee231df, type: 3}
+    tmpFonts:
+    - {fileID: 11400000, guid: 63000e6d5fc8f5a47ae85a3925c33938, type: 2}
+    - {fileID: 11400000, guid: d530405736375414e93efbfba02a26a0, type: 2}
+    - {fileID: 11400000, guid: 91d9af89793b21d4c8aa44c98a86d3bd, type: 2}
+    - {fileID: 11400000, guid: 3cd74aac251889d43b158f8f0f233366, type: 2}
+    - {fileID: 11400000, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+    - {fileID: 11400000, guid: 4b4cde477c22ebb4c92fa515609230f2, type: 2}
+  graphicHelpers:
+    monoBeh: {fileID: 4995548116870501319}
+  tagSetter:
+    monoBeh: {fileID: 4995548116870501319}
+  spriteProcessor:
+    monoBeh: {fileID: 4995548116870501319}
+  tools:
+    monoBeh: {fileID: 4995548116870501319}
+    needShowRateMe: 1
+  nameSetter:
+    monoBeh: {fileID: 4995548116870501319}
+  syncHelper:
+    monoBeh: {fileID: 4995548116870501319}
+  transformSetter:
+    monoBeh: {fileID: 4995548116870501319}
+  currentProject:
+    monoBeh: {fileID: 4995548116870501319}
+    lastImportedFrames: []
+    localPrefabs: []
+    projectName: DISK test
+  spriteGenerator:
+    monoBeh: {fileID: 4995548116870501319}
+    rectTransform: {fileID: 0}
+    meshRenderer: {fileID: 0}
+    meshFilter: {fileID: 0}
+    camera: {fileID: 0}
+  spriteColorizer:
+    monoBeh: {fileID: 4995548116870501319}
+  spritePathSetter:
+    monoBeh: {fileID: 4995548116870501319}
+  spriteDownloader:
+    monoBeh: {fileID: 4995548116870501319}
+  spriteSlicer:
+    monoBeh: {fileID: 4995548116870501319}
+  preImportDataCreator:
+    monoBeh: {fileID: 4995548116870501319}
+  guid: 1474eaaf
+  references:
+    version: 2
+    RefIds:
+    - rid: 8247364591882862608
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 0:1
+        name: Designs
+        type: 2
+        selected: 1
+        childs:
+        - rid: 8247364591882862609
+        - rid: 8247364591882862610
+        - rid: 8247364591882862611
+        - rid: 8247364591882862612
+        - rid: 8247364591882862613
+        - rid: 8247364591882862614
+        - rid: 8247364591882862615
+        - rid: 8247364591882862616
+        - rid: 8247364591882862617
+        - rid: 8247364591882862618
+        - rid: 8247364591882862619
+        - rid: 8247364591882862620
+        - rid: 8247364591882862621
+        - rid: 8247364591882862622
+        - rid: 8247364591882862623
+    - rid: 8247364591882862609
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:2241
+        name: "\u0421\u043B\u043E\u0439 2"
+        type: 4
+        selected: 1
+        childs: []
+    - rid: 8247364591882862610
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:4517
+        name: DISK Manager's Home page
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862611
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:6999
+        name: DISK Candidates' list
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862612
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:3474
+        name: DISK Login
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862613
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:6350
+        name: DISK My result
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862614
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:5956
+        name: DISK Tracking Order
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862615
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 2808:5006
+        name: CurrentProgressCardC
+        type: 4
+        selected: 1
+        childs: []
+    - rid: 8247364591882862616
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 2808:4992
+        name: CurrentProgressCardS
+        type: 4
+        selected: 1
+        childs: []
+    - rid: 8247364591882862617
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 2808:4972
+        name: CurrentProgressCardI
+        type: 4
+        selected: 1
+        childs: []
+    - rid: 8247364591882862618
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:4398
+        name: DISK Home page2
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862619
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:4144
+        name: DISK Home page1
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862620
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:2961
+        name: DISK Signup Screen2
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862621
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:2996
+        name: DISK Signup Screen
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862622
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:1946
+        name: DISK Splash Screen2
+        type: 3
+        selected: 1
+        childs: []
+    - rid: 8247364591882862623
+      type: {class: SelectableFObject, ns: DA_Assets.FCU, asm: DA_Assets.FCU}
+      data:
+        id: 995:2363
+        name: DISK Splash Screen1
+        type: 3
+        selected: 1
+        childs: []
+--- !u!223 &2537432625362997474
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493516166596370879}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &4554075417881448828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493516166596370879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &6784232360847494341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493516166596370879}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 1280}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!1 &7494260350333833535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4339081547001757409}
+  - component: {fileID: 1991187131699285191}
+  - component: {fileID: 173702810183430547}
+  - component: {fileID: 1306069934716601560}
+  m_Layer: 5
+  m_Name: "Kirjaudu sis\xE4n r"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4339081547001757409
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494260350333833535}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6160168063137902602}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 213.92969, y: -201.83496}
+  m_SizeDelta: {x: 345.86, y: 45.67}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1991187131699285191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494260350333833535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1949
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - "Kirjaudu sis\xE4\xE4n roolissasi"
+        - "Kirjaudu sis\xE4n r"
+        - 2a2039ff7bcb40e584a5d2438595755c
+        - kirjaudu_sis_n_roolissas
+        - _kirjauduSisNRoo
+        - KirjauduSisNRool
+        - KirjauduSisNRool
+        - TextMeshPro Mulish-Regular-25-CenterTop-Black255
+        - "Kirjaudu sis\xE4n r"
+        - "style-Kirjaudu sis\xE4n r-2113268869"
+    tags: c8000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 7494260350333833535}
+    hash: -2113268869
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 1
+      Name: TervetuloaText
+      Guid: 81b9f79473eb4940b700326cafdb936b
+    - Index: 0
+      Name: "Kirjaudu sis\xE4n r"
+      Guid: 2a2039ff7bcb40e584a5d2438595755c
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &173702810183430547
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494260350333833535}
+  m_CullTransparentMesh: 1
+--- !u!114 &1306069934716601560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494260350333833535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Kirjaudu sis\xE4\xE4n roolissasi"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_sharedMaterial: {fileID: -2550980693631378957, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 25
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 25
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 35.14
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7739287922762841042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3017389251046458406}
+  - component: {fileID: 2975190322045120581}
+  - component: {fileID: 8861049947163896695}
+  - component: {fileID: 4855829564612391090}
+  m_Layer: 5
+  m_Name: Hakija
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3017389251046458406
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739287922762841042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5995899127899075672}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.1400146}
+  m_SizeDelta: {x: -31.340027, y: -50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2975190322045120581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739287922762841042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: I995:1988;160:8402
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Hakija
+        - Hakija
+        - 746ec6cfde934ac5a75413c2b0bc31b9
+        - hakija
+        - _hakija
+        - Hakija
+        - Hakija
+        - TextMeshPro Mulish-Regular-24-CenterTop-Black255
+        - Hakija
+        - style-Hakija-962700083
+    tags: c8000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 7739287922762841042}
+    hash: -962700083
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 1
+      Name: ButtonCandidate
+      Guid: 88efff7f6bdb45759f9a6fed0a2f4527
+    - Index: 1
+      Name: Hakija
+      Guid: 746ec6cfde934ac5a75413c2b0bc31b9
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &8861049947163896695
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739287922762841042}
+  m_CullTransparentMesh: 1
+--- !u!114 &4855829564612391090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7739287922762841042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Hakija
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_sharedMaterial: {fileID: -2550980693631378957, guid: ba07bc5af49ca824da8872cc7e0c7980, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 23.9
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 1
+  m_fontSizeMax: 24
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 35.14
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &7915373611346343550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2912352494376554075}
+  - component: {fileID: 8432939624332912240}
+  - component: {fileID: 6786951876103847438}
+  - component: {fileID: 654217309560624665}
+  - component: {fileID: 1760089576081285737}
+  m_Layer: 5
+  m_Name: ButtonCandidate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2912352494376554075
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915373611346343550}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5995899127899075672}
+  m_Father: {fileID: 8656308620390225393}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 205, y: -40}
+  m_SizeDelta: {x: 410, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8432939624332912240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915373611346343550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1988
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - ButtonCandidate
+        - ButtonCandidate
+        - 88efff7f6bdb45759f9a6fed0a2f4527
+        - button_candidate
+        - _buttonCandidate
+        - ButtonCandidate
+        - ButtonCandidate
+        - 
+        - ButtonCandidate
+        - style-ButtonCandidate-276323178
+    tags: c900000001000000
+    fcuImageType: 2
+    buttonComponent: 0
+    childIndexes: 4000000041000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 7915373611346343550}
+    hash: 276323178
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 1
+      Name: ButtonCandidate
+      Guid: 88efff7f6bdb45759f9a6fed0a2f4527
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &6786951876103847438
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915373611346343550}
+  m_CullTransparentMesh: 1
+--- !u!114 &654217309560624665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915373611346343550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1760089576081285737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915373611346343550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2e82b06c2ed1847bd32d353cd674c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  independent: 0
+  radiiSerialized: {x: 50, y: 50, z: 50, w: 50}
+  rect2props: {x: 0.000030517578, y: 0.000015258789, z: 144.9569, w: 144.9569}
+  image: {fileID: 654217309560624665}
+--- !u!1 &8416466931635562145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1059467147211444753}
+  - component: {fileID: 5660824612302827040}
+  - component: {fileID: 713173004724016294}
+  - component: {fileID: 940542992646942065}
+  m_Layer: 5
+  m_Name: White bg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1059467147211444753
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416466931635562145}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 693244752741200895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 400, y: -640}
+  m_SizeDelta: {x: 800, y: 1280}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5660824612302827040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416466931635562145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:2364
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - White bg
+        - White bg
+        - 713e20d16a5243a4b2120dd77f77fac8
+        - white_bg
+        - _whiteBg
+        - WhiteBg
+        - WhiteBg
+        - 
+        - White bg
+        - style-White bg-597574560
+    tags: c9000000
+    fcuImageType: 2
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 8416466931635562145}
+    hash: -597574560
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen1
+      Guid: 892a2f4bf93741498c6fd99587bb7387
+    - Index: 0
+      Name: White bg
+      Guid: 713e20d16a5243a4b2120dd77f77fac8
+    rootFrameGO: {fileID: 7136815147329175804}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &713173004724016294
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416466931635562145}
+  m_CullTransparentMesh: 1
+--- !u!114 &940542992646942065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8416466931635562145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 0.8392157, g: 0.9254902, b: 0.98039216, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8677698492900050754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8033655644368089093}
+  - component: {fileID: 119135982692084970}
+  - component: {fileID: 978915446103279814}
+  - component: {fileID: 6751378047954055856}
+  m_Layer: 5
+  m_Name: Company's image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8033655644368089093
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677698492900050754}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 693244752741200895}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 410, y: -650}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &119135982692084970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677698492900050754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 2795:9933
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - Company's image
+        - Company's image
+        - 136f482bb7c24bfa918659867d84a636
+        - company_s_image
+        - _companySImage
+        - CompanySImage
+        - CompanySImage
+        - 
+        - Company's image 4x -257800612.png
+        - style-Company's image-257800612
+    tags: c9000000
+    fcuImageType: 1
+    buttonComponent: 0
+    childIndexes: 
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 8677698492900050754}
+    hash: -257800612
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen1
+      Guid: 892a2f4bf93741498c6fd99587bb7387
+    - Index: 1
+      Name: Company's image
+      Guid: 136f482bb7c24bfa918659867d84a636
+    rootFrameGO: {fileID: 7136815147329175804}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
+--- !u!222 &978915446103279814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677698492900050754}
+  m_CullTransparentMesh: 1
+--- !u!114 &6751378047954055856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8677698492900050754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 41bc1ce8da9e87a4fa340d902394e0df, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 59e58969ec8c6584d8cbd39e6691f076, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &8808086792147825582
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6738432999914897591}
+  - component: {fileID: 608822199611764915}
+  m_Layer: 5
+  m_Name: ButtonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6738432999914897591
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808086792147825582}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5092569111218646638}
+  m_Father: {fileID: 8656308620390225393}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 209, y: -169}
+  m_SizeDelta: {x: 410, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &608822199611764915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8808086792147825582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b42570416bdca4697b2749e5bf8c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  data:
+    id: 995:1991
+    projectId: K3JExSnwNbbXzYy3VHfn8T
+    names:
+      names:
+        m_Keys: 0a000000000000000400000007000000010000000200000005000000080000000300000006000000
+        m_Values:
+        - ButtonManager
+        - ButtonManager
+        - 382b6451ba474675aed5f965958b83fb
+        - button_manager
+        - _buttonManager
+        - ButtonManager
+        - ButtonManager
+        - 
+        - ButtonManager
+        - style-ButtonManager-596180793
+    tags: 01000000
+    fcuImageType: 0
+    buttonComponent: 0
+    childIndexes: 3d0000003e000000
+    fcu: {fileID: 4995548116870501319}
+    gameObject: {fileID: 8808086792147825582}
+    hash: 596180793
+    hierarchy:
+    - Index: -1
+      Name: DISK Splash Screen2
+      Guid: a08a2cdce46b4b11899ddd0ad0337ec8
+    - Index: 0
+      Name: LoginRoleButtons
+      Guid: 07ee101f4e644ef09f59b324706241bb
+    - Index: 0
+      Name: ButtonManager
+      Guid: 382b6451ba474675aed5f965958b83fb
+    rootFrameGO: {fileID: 6336174120273172937}
+    hashDataTree: 
+    parentIndex: 0
+    uguiTransformData:
+      anchorMin: {x: 0, y: 0}
+      anchorMax: {x: 0, y: 0}
+      anchoredPosition: {x: 0, y: 0}
+      sizeDelta: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+      localPosition: {x: 0, y: 0, z: 0}
+      localScale: {x: 0, y: 0, z: 0}
+    graphic:
+      hasFill: 0
+      hasStroke: 0
+      hasSingleColor: 0
+      hasSingleGradient: 0
+      fill:
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      stroke:
+        align: 0
+        weight: 0
+        hasSolid: 0
+        hasGradient: 0
+        singleColor: {r: 0, g: 0, b: 0, a: 0}
+      spriteSingleColor: {r: 0, g: 0, b: 0, a: 0}
+      fillAlpha1: 0
+    rectGameObject: {fileID: 0}
+    spriteSize: {x: 0, y: 0}
+    rect:
+      _position: {x: 0, y: 0}
+      _size: {x: 0, y: 0}
+      _angle: 0
+      _absoluteAngle: 0
+    spritePath: 
+    link: 
+    tagReason: 
+    downloadableReason: 
+    generativeReason: 
+    downloadAttempsCount: 0
+    isDuplicate: 0
+    isMutual: 0
+    isEmpty: 0
+    needDownload: 0
+    needGenerate: 0
+    forceImage: 0
+    isOverlappedByStroke: 0
+    forceContainer: 0
+    isInsideDownloadable: 0
+    hasFontAsset: 0
+    imageFormat: 0
+    scale: 0
+    maxSpriteSize: {x: 0, y: 0}
+    parentTransformRect: {fileID: 0}
+    parentTransform: {fileID: 0}
