@@ -14,7 +14,7 @@ public class ChatGPTService : MonoBehaviour
     async void Start()
     {
         // Настройка тайм-аута для HttpClient
-        client.Timeout = TimeSpan.FromSeconds(30);
+        client.Timeout = TimeSpan.FromSeconds(120);
 
         // Проверка и добавление заголовка Authorization
         if (!client.DefaultRequestHeaders.Contains("Authorization"))
@@ -41,6 +41,7 @@ public class ChatGPTService : MonoBehaviour
         },
             max_tokens = 800,
             temperature = 0.7
+
         };
 
         string json = JsonConvert.SerializeObject(payload);
@@ -117,10 +118,5 @@ public class ChatGPTService : MonoBehaviour
     {
         public string role;
         public string content;
-    }
-
-    void OnDestroy()
-    {
-        client.Dispose();
-    }
+    }        
 }

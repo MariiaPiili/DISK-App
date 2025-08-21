@@ -3,7 +3,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class CandidateHomePageController : MonoBehaviour
 {
     public CandidateController CandidateController;
@@ -45,6 +44,10 @@ public class CandidateHomePageController : MonoBehaviour
             TrackingOrderView.Init(minutes, _currentBlock);
             WindowManager.NextScreen();
         }
+        if(_currentBlock == 4)
+        {
+            _currentBlock = 3;
+        }
 
         ShowQuestion();
     }
@@ -54,6 +57,7 @@ public class CandidateHomePageController : MonoBehaviour
         QuestionText.text = Questions.GetQuestion(_currentQuestion, _currentBlock);
         InputSlider.value = 1;
         BlockHeading.text = GetBlockName(_currentBlock);
+        Debug.Log($"current block + {_currentBlock}");
         BlockIcon.sprite = BlockIcons[_currentBlock];
         NumberOfQuestionInBlock.text = (_currentQuestion + 1).ToString();
         BlockProgressSlider.value = (float)(_currentQuestion + 1) / 25f;

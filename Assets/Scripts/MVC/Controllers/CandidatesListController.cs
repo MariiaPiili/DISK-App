@@ -71,8 +71,4 @@ public class CandidatesListController : MonoBehaviour
         }
     }
 
-
-
-
-
 }

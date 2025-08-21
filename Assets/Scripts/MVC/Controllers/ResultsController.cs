@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using System.Threading.Tasks;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -16,7 +17,7 @@ public class ResultsController : MonoBehaviour
     public Sprite HighlightedSprite;
     public TextMeshProUGUI MaxTypeText;
     public TextMeshProUGUI GPTDescriptionText;
-    public Button ConfirmButton;
+    public Button ConfirmButton;     
 
     private async void OnEnable()
     {
@@ -118,7 +119,7 @@ $"D = {results[0]}, I = {results[1]}, S = {results[2]}, C = {results[3]}. " +
 
         candidate.ResultLetter = types[maxIndex];
         candidate.ResultGPT = response;
-    }
+    }    
 
     public void Confirm()
     {
