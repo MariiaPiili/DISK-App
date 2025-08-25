@@ -2,11 +2,11 @@
 
 A Unity-based gamified DISC assessment tool designed for House & Marine Finland Oy to enhance the recruitment process by evaluating candidates' soft skills effectively.
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This app was developed as part of a final thesis project to provide House & Marine Finland Oy with a digital tool that supports recruitment by identifying candidates' behavioral traits through DISC analysis. It aims to reduce subjective judgment and introduce structured, data-driven evaluation for better hiring decisions.
 
-## 🧩 Key Features
+## Key Features
 
 - Role-based access: Candidate or Manager
 - Candidate registration with input validation
@@ -16,7 +16,7 @@ This app was developed as part of a final thesis project to provide House & Mari
 - Offline-first functionality (AI description requires internet)
 - Manager login and dashboard for viewing and filtering results
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **Engine:** Unity 2022.3.2f1
 - **Language:** C#
@@ -24,7 +24,7 @@ This app was developed as part of a final thesis project to provide House & Mari
 - **Data storage:** JSON (local)
 - **AI integration:** OpenAI API (ChatGPT gpt-4o)
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 Assets/
@@ -37,20 +37,20 @@ Assets/
 │       └── Controllers/       # Logic handlers
 ```
 
-## 🧠 How It Works
+## How It Works
 
 1. **Candidate flow:** splash → registration → info → DISC test → results → AI profile
 2. **Manager flow:** splash → login → view all candidates → inspect AI evaluations
 3. **Data handling:** all user data stored in `Candidates.json`, handled by `CandidatesManager`
 4. **AI integration:** `ResultsController` sends prompt to OpenAI via `ChatGPTService`, retrieves description
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - All user data stored locally
 - No personal data sent to external services
 - AI requests include only DISC scores, not names or birthdates
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Requirements
 - Unity 2022.3.2f1 or later
@@ -63,19 +63,22 @@ Assets/
 4. Add your OpenAI key to the `ChatGPTService` class
 5. Build and deploy to Android/iOS/Windows as needed
 
-## 📸 Screenshots
+## Screenshots
 
-_Add screenshots of key app flows here_
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="man1.png" alt="man1" width="350">
+  <img src="man2.png" alt="man2" width="350">
+  <img src="man3.png" alt="man3" width="350">
+  
+</div>
 
-## 📋 License
+## License
 
 This project was developed as part of a Bachelor’s thesis at LAB University of Applied Sciences.
 
-## 👥 Author
+## Author
 
 - Maria Piili — [Mariia.Piili@student.lab.fi](mailto:Mariia.Piili@student.lab.fi)
 
 
----
-
-Feel free to fork, reuse, and contact us regarding improvements or collaboration!
+Feel free to contact me regarding improvements or collaboration!
