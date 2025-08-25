@@ -67,16 +67,16 @@ Assets/
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
   <img src="splash1.png" alt="splash1" height="500">
-  <img src="splash2.png" alt="splash2" width="350">
-  <img src="cand1.png" alt="cand1" width="350">
-  <img src="cand2.png" alt="cand2" width="350">
-  <img src="cand3.png" alt="cand3" width="350">
-  <img src="cand4.png" alt="cand4" width="350">
-  <img src="cand5.png" alt="cand5" width="350">
-  <img src="cand6.png" alt="cand6" width="350">
-  <img src="man1.png" alt="man1" width="350">
-  <img src="man2.png" alt="man2" width="350">
-  <img src="man3.png" alt="man3" width="350">
+  <img src="splash2.png" alt="splash2" height="500">
+  <img src="cand1.png" alt="cand1" height="500">
+  <img src="cand2.png" alt="cand2" height="500">
+  <img src="cand3.png" alt="cand3" height="500">
+  <img src="cand4.png" alt="cand4" height="500">
+  <img src="cand5.png" alt="cand5" height="500">
+  <img src="cand6.png" alt="cand6" height="500">
+  <img src="man1.png" alt="man1" height="500">
+  <img src="man2.png" alt="man2" height="500">
+  <img src="man3.png" alt="man3" height="500">
   
 </div>
 
